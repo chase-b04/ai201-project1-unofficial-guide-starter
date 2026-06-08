@@ -18,3 +18,9 @@ chroma/
 
 # macOS
 .DS_Store
+
+# gitignore
+.gitignore
+
+# Claude
+CLAUDE.md
