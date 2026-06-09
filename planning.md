@@ -20,18 +20,18 @@ The domain I choose was off campus housing. This knowledge is valuable because w
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-| #   | Source                | Description                                                             | URL or location                                                                                          |
-| --- | --------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 1   | asu.edu               | Official ASU off-campus housing search and listing portal.              | https://offcampushousing.asu.edu/                                                                        |
-| 2   | Reddit                | Student discussion about off-campus apartment recommendations near ASU. | https://www.reddit.com/r/ASU/comments/y6pbzt/offcampus_apartments/                                       |
-| 3   | forrentuniversity.com | Rental listings near ASU Downtown Phoenix campus.                       | https://www.forrentuniversity.com/Arizona-State-University-Downtown-Phoenix-Campus                       |
-| 4   | student.com           | Student housing marketplace with Phoenix accommodation options.         | https://www.student.com/us/phoenix                                                                       |
-| 5   | Reddit                | Advice and experiences on ASU off-campus accommodation.                 | https://www.reddit.com/r/ASU/comments/1lea94p/offcampus_accommodation_help/                              |
-| 6   | Facebook              | Community group post for ASU housing rentals.                           | https://www.facebook.com/groups/asu.off.campus.housing.arizona.state.rentals/posts/2081825209009541/     |
-| 7   | gyandhan.com          | Tips for choosing off-campus housing near ASU Tempe.                    | https://discussions.gyandhan.com/t/things-to-know-before-picking-off-campus-housing-near-asu-tempe/16496 |
-| 8   | ramblertempe.com      | Guide to popular housing options for ASU students.                      | https://ramblertempe.com/resources/where-do-asu-students-live-housing-options-beyond-greek-housing/      |
-| 9   | Reddit                | Student recommendations for best off-campus apartments near ASU.        | https://www.reddit.com/r/ASU/comments/1jqarh9/best_offcampus_apartments/                                 |
-| 10  | nau.edu               | NAU's off-campus housing and roommate listing service.                  | https://louieslist.nau.edu/                                                                              |
+| #   | Source                 | Description                                                             | URL or location                                                                                          |
+| --- | ---------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| 1   | asu.edu                | Official ASU off-campus housing search and listing portal.              | https://offcampushousing.asu.edu/                                                                        |
+| 2   | Reddit                 | Student discussion about off-campus apartment recommendations near ASU. | https://www.reddit.com/r/ASU/comments/y6pbzt/offcampus_apartments/                                       |
+| 3   | forrentuniversity.com  | Rental listings near ASU Downtown Phoenix campus.                       | https://www.forrentuniversity.com/Arizona-State-University-Downtown-Phoenix-Campus                       |
+| 4   | offcampus-universe.com | Affordable off-campus housing options for Arizona State students.       | https://www.offcampus-universe.com/post/asu-affordable-housing-options-for-students                      |
+| 5   | Reddit                 | Advice and experiences on ASU off-campus accommodation.                 | https://www.reddit.com/r/ASU/comments/1lea94p/offcampus_accommodation_help/                              |
+| 6   | Facebook               | Community group post for ASU housing rentals.                           | https://www.facebook.com/groups/asu.off.campus.housing.arizona.state.rentals/posts/2081825209009541/     |
+| 7   | gyandhan.com           | Tips for choosing off-campus housing near ASU Tempe.                    | https://discussions.gyandhan.com/t/things-to-know-before-picking-off-campus-housing-near-asu-tempe/16496 |
+| 8   | ramblertempe.com       | Guide to popular housing options for ASU students.                      | https://ramblertempe.com/resources/where-do-asu-students-live-housing-options-beyond-greek-housing/      |
+| 9   | Reddit                 | Student recommendations for best off-campus apartments near ASU.        | https://www.reddit.com/r/ASU/comments/1jqarh9/best_offcampus_apartments/                                 |
+| 10  | nau.edu                | NAU's off-campus housing and roommate listing service.                  | https://louieslist.nau.edu/                                                                              |
 
 ---
 
