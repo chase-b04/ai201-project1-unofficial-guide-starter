@@ -37,12 +37,12 @@ def handle_query(question: str):
 # ---------------------------------------------------------------------------
 # UI layout
 # ---------------------------------------------------------------------------
-with gr.Blocks(title="ASU Off-Campus Housing Guide") as demo:
+with gr.Blocks(title="Off-Campus Housing Guide") as demo:
 
     gr.Markdown(
         """
-        # ASU Off-Campus Housing — Unofficial Guide
-        Ask questions about off-campus housing near ASU. Answers are drawn
+        # Off-Campus Housing — Unofficial Guide
+        Ask questions about off-campus housing in Arizona. Answers are drawn
         entirely from student reviews, Reddit threads, and housing articles —
         no AI hallucination, sources cited.
         """
@@ -73,7 +73,7 @@ with gr.Blocks(title="ASU Off-Campus Housing Guide") as demo:
 
     with gr.Accordion("Retrieved chunks (for inspection)", open=False):
         chunks_box = gr.Textbox(
-            label="Top-5 chunks passed to the model",
+            label="Top chunks passed to the model",
             lines=20,
             interactive=False,
         )
