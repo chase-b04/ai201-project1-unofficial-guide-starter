@@ -51,7 +51,6 @@ def clean_text(text: str) -> str:
     # Remove URLs
     text = re.sub(r"https?://\S+", "", text)
 
-    # --- Reddit-specific noise ---
     # Remove "Go to <subreddit>" navigation lines
     text = re.sub(r"Go to \S+\s*", "", text)
     # Remove subreddit labels like "r/ASU"

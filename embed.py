@@ -11,7 +11,7 @@ from ingest import ingest
 
 
 COLLECTION_NAME = "asu_housing"
-TOP_K = 5
+TOP_K = 8
 
 
 def build_vector_store(chunks: list[dict], collection_name: str = COLLECTION_NAME) -> chromadb.Collection:
@@ -52,25 +52,33 @@ def build_vector_store(chunks: list[dict], collection_name: str = COLLECTION_NAM
     return collection, model
 
 
-def retrieve(query: str, collection: chromadb.Collection, model: SentenceTransformer, top_k: int = TOP_K) -> list[dict]:
+def retrieve(query: str, collection: chromadb.Collection, model: SentenceTransformer, top_k: int = TOP_K, max_per_source: int = 2) -> list[dict]:
     query_embedding = model.encode([query])[0].tolist()
+    candidate_k = top_k * 4
 
     results = collection.query(
         query_embeddings=[query_embedding],
-        n_results=top_k,
+        n_results=candidate_k,
         include=["documents", "metadatas", "distances"],
     )
-
+    source_counts: dict[str, int] = {}
     hits = []
     for i in range(len(results["documents"][0])):
+        source = results["metadatas"][0][i]["source"]
+        if source_counts.get(source, 0) >= max_per_source:
+            continue
+        source_counts[source] = source_counts.get(source, 0) + 1
         hits.append({
-            "rank":        i + 1,
+            "rank":        len(hits) + 1,
             "text":        results["documents"][0][i],
-            "source":      results["metadatas"][0][i]["source"],
+            "source":      source,
             "chunk_index": results["metadatas"][0][i]["chunk_index"],
             "chunk_size":  results["metadatas"][0][i]["chunk_size"],
             "distance":    results["distances"][0][i],
         })
+        if len(hits) == top_k:
+            break
+
     return hits
 
 
@@ -105,10 +113,10 @@ if __name__ == "__main__":
 
     # Step 3: Test retrieval with sample queriesy
     test_queries = [
-        "Which apartment complexes do students most frequently recommend near ASU?",
+        "What should students know before signing a lease for off-campus housing near ASU?",
         "What concerns do students raise about choosing off-campus housing near ASU Tempe?",
-        "What advice do students give international students seeking off-campus accommodation?",
-        "What do students say about the living experience and amenities at University House?",
+        "What are the pros and cons of living in off-campus student apartments versus traditional apartments near ASU?",
+        "What neighborhoods near ASU Tempe are most popular for student housing?",
         "What alternatives to Greek housing are available for ASU students?",
     ]
 

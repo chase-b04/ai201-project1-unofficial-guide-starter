@@ -73,13 +73,13 @@ The domain I choose was off campus housing. This knowledge is valuable because w
      is right or wrong. "What are good dining halls?" is too vague.
      "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
 
-| #   | Question                                                                                                           | Expected answer                                                                 |
-| --- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
-| 1   | Which apartment complexes do students most frequently recommend in the Reddit thread "Best Off-Campus Apartments"? | Specific apartment names                                                        |
-| 2   | What concerns do students raise about choosing off-campus housing near ASU Tempe?                                  | Cost, commute distance, roommates, safety, and lease terms.                     |
-| 3   | What advice do students give international students seeking off-campus accommodation in the Reddit help thread?    | Start searching early, compare leases, and verify transportation/accessibility. |
-| 4   | What do students say about the living experience and amenities in University House (UH)?                           | Real good or bad reviews                                                        |
-| 5   | What alternatives to Greek housing are discussed in the Rambler Tempe article?                                     | Off-campus apartments, student communities, and shared housing options.         |
+| #   | Question                                                                                                      | Expected answer                                                                                                    |
+| --- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| 1   | "hat should students know before signing a lease for off-campus housing near ASU?                             | Lease, times to sign the lease, and potential costs                                                                |
+| 2   | What concerns do students raise about choosing off-campus housing near ASU Tempe?                             | Cost, commute distance, roommates, safety, and lease terms.                                                        |
+| 3   | What are the pros and cons of living in off-campus student apartments versus traditional apartments near ASU? | On-Campus might be cheaper, Off-Campus is full year round, has ammenities, and provides a better living experience |
+| 4   | What neighborhoods near ASU Tempe are most popular for student housing                                        | Real places around Tempe and reviews around them                                                                   |
+| 5   | What alternatives to Greek housing are discussed in the Rambler Tempe article?                                | Off-campus apartments, student communities, and shared housing options.                                            |
 
 ---
 
